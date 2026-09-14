@@ -1,0 +1,14 @@
+{
+  "name": "NISD-police-department-system",
+  "version": "1.0.0",
+  "description": "NISD Police Department Staff Management, Equipment Tracking & Emergency Dispatch System",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install --prefix backend && npm install --prefix frontend",
+    "seed": "node backend/seed.js",
+    "backend": "node --watch backend/server.js",
+    "frontend": "npm run dev --prefix frontend",
+    "dev": "node start-dev.js",
+    "start": "node start-dev.js"
+  }
+}
