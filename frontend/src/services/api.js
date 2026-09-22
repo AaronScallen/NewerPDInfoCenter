@@ -90,6 +90,8 @@ export const api = {
   // Alerts
   getAlerts: () => request('/alerts'),
   createAlert: (data) => request('/alerts', { method: 'POST', body: JSON.stringify(data) }),
+  updateAlert: (id, data) => request(`/alerts/${id}`, { method: 'PUT', body: JSON.stringify(data) }),
+  deleteAlert: (id) => request(`/alerts/${id}`, { method: 'DELETE' }),
 
   // Notices
   getNotices: (onlyActive = false) => request(`/notices${onlyActive ? '?active=true' : ''}`),

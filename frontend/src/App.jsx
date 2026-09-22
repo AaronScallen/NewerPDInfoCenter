@@ -134,7 +134,7 @@ export default function App() {
           fetchAllData();
         } else if (data.type === 'ALERT_ACKNOWLEDGED') {
           addToast(`Officer ${data.officerName} (#${data.badge}) acknowledged Incident #${data.alertId}`, 'success');
-        } else if (data.type === 'ROSTER_UPDATED' || data.type === 'ABSENCE_UPDATED' || data.type === 'NOTICES_UPDATED' || data.type === 'SYSTEM_RESEEDED') {
+        } else if (data.type === 'ROSTER_UPDATED' || data.type === 'ABSENCE_UPDATED' || data.type === 'NOTICES_UPDATED' || data.type === 'ALERT_HISTORY_UPDATED' || data.type === 'SYSTEM_RESEEDED') {
           fetchAllData();
           if (data.type === 'SYSTEM_RESEEDED') {
             addToast('Database reseeded with default tactical records.', 'info');
@@ -315,6 +315,7 @@ export default function App() {
         isOpen={isAlertHistoryOpen}
         onClose={() => setIsAlertHistoryOpen(false)}
         alerts={alerts}
+        onRefresh={fetchAllData}
       />
 
       {/* Role & Access Management Modal (Super Admin & Command only) */}

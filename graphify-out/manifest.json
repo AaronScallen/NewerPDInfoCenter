@@ -1,0 +1,206 @@
+{
+  "backend/db.js": {
+    "mtime": 1789060451.9579668,
+    "seen": 1789403323.1774266,
+    "ast_hash": "bd1ad5d1ab5b8c1f7309339360766721",
+    "semantic_hash": "bd1ad5d1ab5b8c1f7309339360766721"
+  },
+  "backend/package.json": {
+    "mtime": 1789066884.1510973,
+    "seen": 1789403323.17743,
+    "ast_hash": "21b1afede23c4f91995e4fb9af7ce41a",
+    "semantic_hash": "21b1afede23c4f91995e4fb9af7ce41a"
+  },
+  "backend/seed.js": {
+    "mtime": 1789066912.0728683,
+    "seen": 1789403323.1774313,
+    "ast_hash": "a873bae7bcc3ff3b6b1223d48aa3b9fa",
+    "semantic_hash": "a873bae7bcc3ff3b6b1223d48aa3b9fa"
+  },
+  "backend/server.js": {
+    "mtime": 1789067226.8400002,
+    "seen": 1789403323.1774318,
+    "ast_hash": "0cf0cba6239f2c429f053f2d5c0d7dfd",
+    "semantic_hash": "0cf0cba6239f2c429f053f2d5c0d7dfd"
+  },
+  "backend/test_api.js": {
+    "mtime": 1788903033.03607,
+    "seen": 1789403323.1774325,
+    "ast_hash": "e67b682176385184fb73f6d0612d67d1",
+    "semantic_hash": "e67b682176385184fb73f6d0612d67d1"
+  },
+  "frontend/package.json": {
+    "mtime": 1788902787.338653,
+    "seen": 1789403323.177433,
+    "ast_hash": "e34b096498e35312d928766b8408de8c",
+    "semantic_hash": "e34b096498e35312d928766b8408de8c"
+  },
+  "frontend/postcss.config.js": {
+    "mtime": 1788902810.658121,
+    "seen": 1789403323.1774335,
+    "ast_hash": "ef3ba2a81ba19f8ea5ddf625521e96f0",
+    "semantic_hash": "ef3ba2a81ba19f8ea5ddf625521e96f0"
+  },
+  "frontend/src/App.jsx": {
+    "mtime": 1789067091.2849507,
+    "seen": 1789403323.1774344,
+    "ast_hash": "10f9040c1e89c7ab1949f1725ec64c9b",
+    "semantic_hash": "10f9040c1e89c7ab1949f1725ec64c9b"
+  },
+  "frontend/src/components/ActiveNoticeBanner.jsx": {
+    "mtime": 1788902854.569811,
+    "seen": 1789403323.177435,
+    "ast_hash": "3c1ad0454ee3ade1d8619f28534a06c9",
+    "semantic_hash": "3c1ad0454ee3ade1d8619f28534a06c9"
+  },
+  "frontend/src/components/AlertHistoryModal.jsx": {
+    "mtime": 1789056077.1446307,
+    "seen": 1789403323.1774354,
+    "ast_hash": "88968a6ac4a3cbabbb0e892e379c1e9a",
+    "semantic_hash": "88968a6ac4a3cbabbb0e892e379c1e9a"
+  },
+  "frontend/src/components/AssetManager.jsx": {
+    "mtime": 1789067337.7170682,
+    "seen": 1789403323.1774359,
+    "ast_hash": "eeb4c0e8847c5b3b6a5f6b239f4ad12a",
+    "semantic_hash": "eeb4c0e8847c5b3b6a5f6b239f4ad12a"
+  },
+  "frontend/src/components/DashboardOverview.jsx": {
+    "mtime": 1789067405.2451932,
+    "seen": 1789403323.1774364,
+    "ast_hash": "6a5b68b10d19e2800e313ea1e1036786",
+    "semantic_hash": "6a5b68b10d19e2800e313ea1e1036786"
+  },
+  "frontend/src/components/DepartmentRoster.jsx": {
+    "mtime": 1789067285.5262835,
+    "seen": 1789403323.1774368,
+    "ast_hash": "dc8a1c396f03a80212943ca991aed8a5",
+    "semantic_hash": "dc8a1c396f03a80212943ca991aed8a5"
+  },
+  "frontend/src/components/DispatchConsoleModal.jsx": {
+    "mtime": 1789056066.1789987,
+    "seen": 1789403323.177437,
+    "ast_hash": "b27cae7a22e0c0460d4dc47ebeb1bcb3",
+    "semantic_hash": "b27cae7a22e0c0460d4dc47ebeb1bcb3"
+  },
+  "frontend/src/components/EmergencyOverlay.jsx": {
+    "mtime": 1789056020.6040657,
+    "seen": 1789403323.1774378,
+    "ast_hash": "a50c08ab30f4d913b43a5786fbcbc89d",
+    "semantic_hash": "a50c08ab30f4d913b43a5786fbcbc89d"
+  },
+  "frontend/src/components/EmployeeFormModal.jsx": {
+    "mtime": 1789056088.189448,
+    "seen": 1789403323.1774383,
+    "ast_hash": "4154df61f926c71025637e71557feff2",
+    "semantic_hash": "4154df61f926c71025637e71557feff2"
+  },
+  "frontend/src/components/LoginScreen.jsx": {
+    "mtime": 1789066997.7345517,
+    "seen": 1789403323.1774387,
+    "ast_hash": "0d349074e1ba54487a798f0e29ba966c",
+    "semantic_hash": "0d349074e1ba54487a798f0e29ba966c"
+  },
+  "frontend/src/components/Navbar.jsx": {
+    "mtime": 1789067150.552874,
+    "seen": 1789403323.1774392,
+    "ast_hash": "9e0391d38967706709c9b7af5fbc95d7",
+    "semantic_hash": "9e0391d38967706709c9b7af5fbc95d7"
+  },
+  "frontend/src/components/NoticeManagerModal.jsx": {
+    "mtime": 1789067376.0118961,
+    "seen": 1789403323.1774397,
+    "ast_hash": "f548e16a7df1e6033b67bd64c95dcbb9",
+    "semantic_hash": "f548e16a7df1e6033b67bd64c95dcbb9"
+  },
+  "frontend/src/components/RoleManagerModal.jsx": {
+    "mtime": 1789067199.5254889,
+    "seen": 1789403323.1774402,
+    "ast_hash": "3d80715b86a1d3af37de105f1207d02b",
+    "semantic_hash": "3d80715b86a1d3af37de105f1207d02b"
+  },
+  "frontend/src/components/ShiftAbsenceTracker.jsx": {
+    "mtime": 1789067356.755535,
+    "seen": 1789403323.177441,
+    "ast_hash": "d68e0fb0e9931511b283051828d34c5c",
+    "semantic_hash": "d68e0fb0e9931511b283051828d34c5c"
+  },
+  "frontend/src/main.jsx": {
+    "mtime": 1789066948.5038807,
+    "seen": 1789403323.1774414,
+    "ast_hash": "0adc4581659b16759e57658c4dc544a0",
+    "semantic_hash": "0adc4581659b16759e57658c4dc544a0"
+  },
+  "frontend/src/services/AuthContext.jsx": {
+    "mtime": 1789066985.3602471,
+    "seen": 1789403323.177442,
+    "ast_hash": "98c5adb823a0da658b04ed8c4db6d690",
+    "semantic_hash": "98c5adb823a0da658b04ed8c4db6d690"
+  },
+  "frontend/src/services/api.js": {
+    "mtime": 1789066967.9916484,
+    "seen": 1789403323.1774426,
+    "ast_hash": "e063f714396cc6eda14e8c99fa0fd2f9",
+    "semantic_hash": "e063f714396cc6eda14e8c99fa0fd2f9"
+  },
+  "frontend/src/services/audioAlert.js": {
+    "mtime": 1789054636.4439373,
+    "seen": 1789403323.177443,
+    "ast_hash": "1532b1dd4cc897385bd7290f3d179448",
+    "semantic_hash": "1532b1dd4cc897385bd7290f3d179448"
+  },
+  "frontend/src/services/websocket.js": {
+    "mtime": 1788902835.943289,
+    "seen": 1789403323.1774433,
+    "ast_hash": "6ba5f51e5b5f0287bca2a9536ca28078",
+    "semantic_hash": "6ba5f51e5b5f0287bca2a9536ca28078"
+  },
+  "frontend/tailwind.config.js": {
+    "mtime": 1788902807.4927247,
+    "seen": 1789403323.1774437,
+    "ast_hash": "ac53eac130d8b972033623e09f3ac3d2",
+    "semantic_hash": "ac53eac130d8b972033623e09f3ac3d2"
+  },
+  "frontend/vite.config.js": {
+    "mtime": 1788902802.6161802,
+    "seen": 1789403323.1774445,
+    "ast_hash": "bb84e8bc7bb5c3ad53c80fd4cc0ecabd",
+    "semantic_hash": "bb84e8bc7bb5c3ad53c80fd4cc0ecabd"
+  },
+  "package.json": {
+    "mtime": 1789048681.747561,
+    "seen": 1789403323.177445,
+    "ast_hash": "1b6ef3efbb218b7e5cc5d063289af4f1",
+    "semantic_hash": "1b6ef3efbb218b7e5cc5d063289af4f1"
+  },
+  "start-dev.js": {
+    "mtime": 1789048681.7505603,
+    "seen": 1789403323.1774452,
+    "ast_hash": "79ddd36f57ee346c80aff931f00a1102",
+    "semantic_hash": "79ddd36f57ee346c80aff931f00a1102"
+  },
+  ".github/copilot-instructions.md": {
+    "mtime": 1789402726.194089,
+    "seen": 1789403323.1774457,
+    "ast_hash": "2b23503628bf2ec71d067a85ca8948ab",
+    "semantic_hash": "2b23503628bf2ec71d067a85ca8948ab"
+  },
+  "frontend/index.html": {
+    "mtime": 1789056008.6709435,
+    "seen": 1789403323.1774461,
+    "ast_hash": "af6eade46ff7953e2d2971b210cf18f5",
+    "semantic_hash": "af6eade46ff7953e2d2971b210cf18f5"
+  },
+  "frontend/public/logo.png": {
+    "mtime": 1789055971.6827354,
+    "seen": 1789403323.1774468,
+    "ast_hash": "f6765d9187afd7ce432e4ce4a8cb9d9c",
+    "semantic_hash": "f6765d9187afd7ce432e4ce4a8cb9d9c"
+  },
+  "frontend/public/nisd_police_patch.png": {
+    "mtime": 1789055971.6827354,
+    "seen": 1789403323.1774473,
+    "ast_hash": "f6765d9187afd7ce432e4ce4a8cb9d9c",
+    "semantic_hash": "f6765d9187afd7ce432e4ce4a8cb9d9c"
+  }
+}

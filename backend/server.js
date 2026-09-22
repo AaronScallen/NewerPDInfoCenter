@@ -1103,6 +1103,46 @@ app.post('/api/alerts', requirePermission('dispatch_broadcast'), (req, res) => {
   }
 });
 
+app.put('/api/alerts/:id', requirePermission('dispatch_broadcast'), (req, res) => {
+  try {
+    const { title, priority, message } = req.body;
+    if (typeof title !== 'string' || !title.trim() || typeof message !== 'string' || !message.trim()) {
+      return res.status(400).json({ error: 'title and message are required' });
+    }
+
+    const prioNum = Number(priority);
+    if (![1, 2, 3].includes(prioNum)) {
+      return res.status(400).json({ error: 'priority must be 1 (Critical), 2 (Urgent), or 3 (Standard)' });
+    }
+
+    const info = db.prepare(`
+      UPDATE emergency_alerts
+      SET title = ?, priority = ?, message = ?
+      WHERE alert_id = ?
+    `).run(title.trim(), prioNum, message.trim(), req.params.id);
+
+    if (info.changes === 0) return res.status(404).json({ error: 'Alert not found' });
+
+    const alert = db.prepare('SELECT * FROM emergency_alerts WHERE alert_id = ?').get(req.params.id);
+    broadcast({ type: 'ALERT_HISTORY_UPDATED', action: 'UPDATE', alert });
+    res.json({ success: true, alert });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+app.delete('/api/alerts/:id', requirePermission('dispatch_broadcast'), (req, res) => {
+  try {
+    const info = db.prepare('DELETE FROM emergency_alerts WHERE alert_id = ?').run(req.params.id);
+    if (info.changes === 0) return res.status(404).json({ error: 'Alert not found' });
+
+    broadcast({ type: 'ALERT_HISTORY_UPDATED', action: 'DELETE', alert_id: Number(req.params.id) });
+    res.json({ success: true });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
 // 10. Important Notices
 app.get('/api/notices', (req, res) => {
   try {

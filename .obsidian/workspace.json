@@ -157,9 +157,19 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
+          },
+          {
+            "id": "70ccaeab91d65119",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-agent-chat-view",
+              "state": {},
+              "icon": "copilot-agent",
+              "title": "Copilot Agent"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -174,10 +184,12 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "obsidian-git:Open Git source control": false,
+      "copilot:Open Copilot Agent Chat": false
     }
   },
-  "active": "5773d1d8382e20e5",
+  "active": "70ccaeab91d65119",
   "lastOpenFiles": [
     "backend/node_modules/accepts/HISTORY.md",
     "frontend/dist/nisd_police_patch.png",
